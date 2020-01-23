@@ -1,6 +1,6 @@
 <?php
 
-namespace PstkwebTodo\Task;
+namespace Pstkweb\Todo;
 
 class Task
 {

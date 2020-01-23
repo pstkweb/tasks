@@ -1,6 +1,6 @@
 <?php
 
-namespace PstkwebTodo\TodoList.php;
+namespace Pstkweb\Todo;
 
 class TodoList
 {
@@ -9,9 +9,9 @@ class TodoList
      */
     private $tasks;
 
-    public function __construct()
+    public function __construct(TaskCollection $tasks)
     {
-        $tasks = new TaskCollection();
+        $this->tasks = $tasks;
     }
 
     public function addTask(Task $task): void

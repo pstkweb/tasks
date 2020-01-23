@@ -1,6 +1,6 @@
 <?php
 
-namespace PstkwebTodo\TaskCollection;
+namespace Pstkweb\Todo;
 
 use Countable;
 
